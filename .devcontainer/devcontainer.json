@@ -1,0 +1,13 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/rust:1",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/starship:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["fill-labs.dependi"]
+    }
+  },
+  "postCreateCommand": ".devcontainer/postCreate.sh"
+}
